@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="es" itemscope itemtype="https://schema.org/WebSite">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="ACE Argentina - Detergente para familias modernas. Máxima remoción de manchas con productos que se adaptan a tu estilo de vida. Polvo, líquido concentrado y regular.">
+    <meta name="keywords" content="detergente ACE, cuidado de la ropa, familias modernas, remoción de manchas, Argentina, detergente en polvo, detergente líquido">
+    <meta name="author" content="ACE Argentina - Dreamco">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://ace.ar/">
+    <meta property="og:title" content="ACE Argentina - Detergente para Familias Modernas">
+    <meta property="og:description" content="La vida cambió. Tu detergente también. ACE se adapta a las nuevas realidades familiares con máxima eficacia y simplicidad.">
+    <meta property="og:image" content="https://ace.ar/images/ace-og-image.jpg">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://ace.ar/">
+    <meta property="twitter:title" content="ACE Argentina - Detergente para Familias Modernas">
+    <meta property="twitter:description" content="La vida cambió. Tu detergente también. ACE se adapta a las nuevas realidades familiares con máxima eficacia y simplicidad.">
+    <meta property="twitter:image" content="https://ace.ar/images/ace-twitter-image.jpg">
+    
+    <title>ACE Argentina - Detergente para Familias Modernas | Cuidado de la Ropa</title>
+    <link rel="canonical" href="https://ace.ar/">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Structured Data - Organization -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "ACE Argentina",
+        "alternateName": "ACE Detergente",
+        "url": "https://ace.ar",
+        "logo": "https://ace.ar/images/ace-logo.png",
+        "description": "ACE es una marca de detergentes para familias modernas en Argentina, ofreciendo productos de máxima eficacia para el cuidado de la ropa.",
+        "foundingDate": "1997",
+        "parentOrganization": {
+            "@type": "Organization",
+            "name": "Dreamco",
+            "url": "https://www.webdreamco.com"
+        },
+        "address": {
+            "@type": "PostalAddress",
+            "addressCountry": "AR",
+            "addressRegion": "Buenos Aires"
+        },
+        "contactPoint": {
+            "@type": "ContactPoint",
+            "telephone": "+54-11-2298-2450",
+            "contactType": "customer service",
+            "availableLanguage": "Spanish"
+        },
+        "sameAs": [
+            "https://www.facebook.com/ACEArgentina",
+            "https://www.instagram.com/aceargentina",
+            "https://twitter.com/ACEArgentina"
+        ]
+    }
+    </script>
+    
+    <!-- Structured Data - WebSite -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "ACE Argentina",
+        "url": "https://ace.ar",
+        "description": "Sitio oficial de ACE Argentina - Detergente para familias modernas",
+        "publisher": {
+            "@type": "Organization",
+            "name": "ACE Argentina"
+        },
+        "potentialAction": {
+            "@type": "SearchAction",
+            "target": "https://ace.ar/buscar?q={search_term_string}",
+            "query-input": "required name=search_term_string"
+        }
+    }
+    </script>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header" role="banner">
+        <nav class="nav-container" role="navigation" aria-label="Navegación principal">
+            <div class="nav-brand">
+                <img src="images/logo.png" alt="ACE Argentina Logo" class="logo" width="120" height="40">
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#productos" class="nav-link">Productos</a></li>
+                <li><a href="#cuidado-ropa" class="nav-link">Cuidado de la Ropa</a></li>
+                <li><a href="#familias-reales" class="nav-link">Familias Reales</a></li>
+                <li><a href="#sobre-nosotros" class="nav-link">Sobre Nosotros</a></li>
+                <li><a href="#contacto" class="nav-link">Contacto</a></li>
+            </ul>
+            <div class="nav-actions">
+                <button class="search-btn" aria-label="Buscar" onclick="toggleSearch()">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="11" cy="11" r="8"></circle>
+                        <path d="m21 21-4.35-4.35"></path>
+                    </svg>
+                </button>
+                <a href="https://tienda.mercadolibre.com.ar/ace" target="_blank" rel="noopener" class="cta-btn">Encontrá tu ACE</a>
+            </div>
+            <button class="mobile-menu-btn" id="mobile-menu-btn" aria-label="Menú móvil" onclick="toggleMobileMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" role="main">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    La vida cambió. <span class="gradient-text">Tu detergente también.</span>
+                </h1>
+                <p class="hero-subtitle">
+                    Para las familias modernas que hacen malabares con las demandas de la vida cotidiana, 
+                    ACE es el detergente que ofrece una limpieza impecable de forma simple y eficaz.
+                </p>
+                
+                <!-- Value Propositions -->
+                <div class="value-props">
+                    <div class="value-prop">
+                        <div class="value-icon adaptability"></div>
+                        <div>
+                            <h3>Adaptabilidad</h3>
+                            <p>Para todas las familias</p>
+                        </div>
+                    </div>
+                    <div class="value-prop">
+                        <div class="value-icon efficacy"></div>
+                        <div>
+                            <h3>Eficacia</h3>
+                            <p>Máxima remoción</p>
+                        </div>
+                    </div>
+                    <div class="value-prop">
+                        <div class="value-icon simplicity"></div>
+                        <div>
+                            <h3>Simplicidad</h3>
+                            <p>Fácil de usar</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="hero-actions">
+                    <button class="btn-primary">Descubrí tu ACE ideal</button>
+                    <button class="btn-secondary">Ver productos</button>
+                </div>
+
+                <!-- Trust Indicators -->
+                <div class="trust-indicators">
+                    <span class="trust-item">✓ Tensioactivos biodegradables</span>
+                    <span class="trust-item">✓ Presente desde 1997</span>
+                    <span class="trust-item">✓ Confianza familiar</span>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="image-placeholder">
+                    <div class="family-icon"></div>
+                    <p>Familia moderna con ACE</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="productos" class="products-section">
+        <div class="container">
+            <h2 class="section-title">Descubrí todos los formatos ACE</h2>
+            <p class="section-subtitle">Cada formato diseñado para adaptarse a las necesidades de tu familia moderna</p>
+            
+            <div class="products-grid">
+                <!-- Product 1: Polvo -->
+                <article class="product-card" itemscope itemtype="https://schema.org/Product">
+                    <div class="product-image">
+                        <img src="images/polvo.png" alt="ACE Detergente en Polvo 3Kg" class="product-img" width="160" height="200">
+                    </div>
+                    <div class="product-content">
+                        <h3 itemprop="name">ACE Detergente en Polvo</h3>
+                        <p class="product-size">Tamaño: 3Kg</p>
+                        <p itemprop="description">Máxima remoción de manchas con tensioactivos biodegradables. Ideal para lavarropas automáticos y lavado a mano.</p>
+                        
+                        <div class="product-features">
+                            <h4>Características principales:</h4>
+                            <ul>
+                                <li>Enzimas quitamanchas</li>
+                                <li>Agentes reguladores de espuma</li>
+                                <li>Ablandadores de agua</li>
+                                <li>Abrillantadores ópticos</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="product-actions">
+                            <button class="product-btn primary" onclick="window.open('https://tienda.mercadolibre.com.ar/ace', '_blank')">Comprar en MercadoLibre</button>
+                            <a href="productos/polvo-3kg.html" class="product-link">Más información</a>
+                        </div>
+                    </div>
+                    
+                    <!-- Structured Data for Product -->
+                    <script type="application/ld+json">
+                    {
+                        "@context": "https://schema.org",
+                        "@type": "Product",
+                        "name": "ACE Detergente en Polvo 3Kg",
+                        "description": "Detergente en polvo con máxima remoción de manchas, tensioactivos biodegradables y enzimas quitamanchas",
+                        "brand": {
+                            "@type": "Brand",
+                            "name": "ACE"
+                        },
+                        "manufacturer": {
+                            "@type": "Organization",
+                            "name": "Dreamco"
+                        },
+                        "category": "Detergentes",
+                        "weight": "3 kg",
+                        "additionalProperty": [
+                            {
+                                "@type": "PropertyValue",
+                                "name": "Tipo",
+                                "value": "Polvo"
+                            },
+                            {
+                                "@type": "PropertyValue",
+                                "name": "Biodegradable",
+                                "value": "Sí"
+                            }
+                        ]
+                    }
+                    </script>
+                </article>
+
+                <!-- Product 2: Líquido Concentrado -->
+                <article class="product-card" itemscope itemtype="https://schema.org/Product">
+                    <div class="product-image">
+                        <img src="images/diluir.png" alt="ACE Concentrado para diluir 500ml" class="product-img" width="160" height="200">
+                    </div>
+                    <div class="product-content">
+                        <h3 itemprop="name">ACE Líquido Concentrado Para Diluir</h3>
+                        <p class="product-size">Tamaño: 500ml</p>
+                        <p itemprop="description">NUEVO formato concentrado que permite ahorrar hasta un 20% vs. el doypack de 3L. Con tapa dosificadora para aplicar sin necesidad de diluir. Rinde 3L.</p>
+                        
+                        <div class="product-features">
+                            <h4>Beneficios únicos:</h4>
+                            <ul>
+                                <li>Ahorro hasta 20% vs doypack 3L</li>
+                                <li>Tapa dosificadora incluida</li>
+                                <li>Uso directo o diluido</li>
+                                <li>Rinde hasta 3 litros</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="product-actions">
+                            <button class="product-btn primary" onclick="window.open('https://www.mercadolibre.com.ar/jabon-liquido-ace-ace-clasico-ace-clasico-fresco-y-duradero-botella-500ml/p/MLA46276953', '_blank')">Comprar en MercadoLibre</button>
+                            <a href="productos/liquido-concentrado.html" class="product-link">Más información</a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Product 3: Líquido Regular -->
+                <article class="product-card" itemscope itemtype="https://schema.org/Product">
+                    <div class="product-image">
+                        <img src="images/clasico.png" alt="ACE Líquido Regular 800ml" class="product-img" width="160" height="200">
+                    </div>
+                    <div class="product-content">
+                        <h3 itemprop="name">ACE Líquido Regular</h3>
+                        <p class="product-size">Tamaño: 800ml - Doypack</p>
+                        <p itemprop="description">Líquido para lavar la ropa blanca y de color. Con tensioactivos biodegradables al 80% y catalizadores biológicos.</p>
+                        
+                        <div class="product-features">
+                            <h4>Características principales:</h4>
+                            <ul>
+                                <li>Para ropa blanca y de color</li>
+                                <li>80% biodegradable</li>
+                                <li>Catalizadores biológicos</li>
+                                <li>Abrillantadores ópticos</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="product-actions">
+                            <button class="product-btn primary" onclick="window.open('https://tienda.mercadolibre.com.ar/ace', '_blank')">Comprar en MercadoLibre</button>
+                            <a href="productos/liquido-regular.html" class="product-link">Más información</a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Care Guide Section (AEO/LLMO Optimized) -->
+    <section id="cuidado-ropa" class="care-section">
+        <div class="container">
+            <h2 class="section-title">Guía Completa de Cuidado de la Ropa</h2>
+            <p class="section-subtitle">Todo lo que necesitás saber para mantener tu ropa impecable</p>
+            
+            <div class="care-grid">
+                <article class="care-card">
+                    <h3>¿Cómo quitar manchas difíciles de la ropa?</h3>
+                    <p>Guía paso a paso para eliminar las manchas más comunes: vino, grasa, pasto, sangre y más.</p>
+                    <a href="guias/como-quitar-manchas.html" class="care-link">Leer guía completa</a>
+                </article>
+                
+                <article class="care-card">
+                    <h3>¿Cómo lavar ropa de bebé de forma segura?</h3>
+                    <p>Consejos especiales para el cuidado de la ropa delicada de los más pequeños de la familia.</p>
+                    <a href="guias/lavar-ropa-bebe.html" class="care-link">Leer guía completa</a>
+                </article>
+                
+                <article class="care-card">
+                    <h3>¿Cómo mantener la ropa libre de pelos de mascota?</h3>
+                    <p>Técnicas efectivas para familias con mascotas que quieren mantener su ropa impecable.</p>
+                    <a href="guias/ropa-sin-pelos-mascota.html" class="care-link">Leer guía completa</a>
+                </article>
+                
+                <article class="care-card">
+                    <h3>¿Cuál es la diferencia entre detergente en polvo y líquido?</h3>
+                    <p>Comparativa completa para ayudarte a elegir el formato ideal según tus necesidades.</p>
+                    <a href="guias/polvo-vs-liquido.html" class="care-link">Leer guía completa</a>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section (LLMO Optimized) -->
+    <section class="faq-section" itemscope itemtype="https://schema.org/FAQPage">
+        <div class="container">
+            <h2 class="section-title">Preguntas Frecuentes sobre ACE</h2>
+            
+            <div class="faq-container">
+                <div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+                    <button class="faq-question" onclick="toggleFAQ(this)">
+                        <h3 itemprop="name">¿Cuál es el mejor detergente ACE para familias con niños pequeños?</h3>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+                        <div itemprop="text">
+                            <p>Para familias con niños pequeños, recomendamos <strong>ACE Líquido Regular</strong> ya que es más suave con las telas delicadas y tiene tensioactivos 80% biodegradables. Es ideal para lavar ropa de bebé y prendas que requieren cuidado especial. También puedes usar ACE en Polvo para manchas más difíciles como las de comida o juegos al aire libre.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+                    <button class="faq-question" onclick="toggleFAQ(this)">
+                        <h3 itemprop="name">¿Cómo usar ACE Líquido Concentrado para Diluir?</h3>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+                        <div itemprop="text">
+                            <p>ACE Líquido Concentrado se puede usar de dos formas:</p>
+                            <ol>
+                                <li><strong>Uso directo:</strong> Aplica directamente sobre manchas difíciles usando la tapa dosificadora.</li>
+                                <li><strong>Uso diluido:</strong> Mezcla el contenido completo (500ml) con agua hasta completar 3 litros en un recipiente limpio. Esto te permite ahorrar hasta 20% comparado con el doypack de 3L.</li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+                    <button class="faq-question" onclick="toggleFAQ(this)">
+                        <h3 itemprop="name">¿ACE es seguro para el medio ambiente?</h3>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+                        <div itemprop="text">
+                            <p>Sí, ACE está comprometido con el cuidado del medio ambiente. Nuestros productos contienen <strong>tensioactivos biodegradables</strong> que se descomponen naturalmente después del uso. ACE Líquido Regular tiene una biodegradabilidad mínima del 80% en su materia activa, cumpliendo con estándares ambientales internacionales.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+                    <button class="faq-question" onclick="toggleFAQ(this)">
+                        <h3 itemprop="name">¿Qué cantidad de ACE debo usar por lavado?</h3>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+                        <div itemprop="text">
+                            <p>La cantidad depende del formato y tipo de lavado:</p>
+                            <ul>
+                                <li><strong>ACE en Polvo:</strong> 1 taza (aproximadamente 100g) para carga regular en lavarropas automático</li>
+                                <li><strong>ACE Líquido:</strong> 100ml para carga regular con sucio moderado</li>
+                                <li><strong>Lavado a mano:</strong> Reduce la cantidad a la mitad y ajusta según la cantidad de ropa</li>
+                            </ul>
+                            <p>Para manchas difíciles, aplica un poco de producto directamente sobre la mancha antes del lavado.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+                    <button class="faq-question" onclick="toggleFAQ(this)">
+                        <h3 itemprop="name">¿Dónde puedo comprar productos ACE en Argentina?</h3>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+                        <div itemprop="text">
+                            <p>Los productos ACE están disponibles en:</p>
+                            <ul>
+                                <li><strong>Supermercados:</strong> Carrefour, Coto, Jumbo, Disco, Vea</li>
+                                <li><strong>Hipermercados:</strong> Walmart, Easy, Sodimac</li>
+                                <li><strong>Tiendas online:</strong> MercadoLibre, Rappi, PedidosYa Market</li>
+                                <li><strong>Almacenes y kioscos</strong> de barrio en todo el país</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="sobre-nosotros" class="about-section">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>Sobre ACE Argentina</h2>
+                    <p class="about-intro">
+                        En ACE, entendemos que la vida cambió y las familias también: hogares llenos de hijos, 
+                        mascotas de todo tipo y familias ensambladas. Por eso, volvimos para adaptarnos a cada 
+                        una de estas realidades, ofreciéndote productos que te hagan más fácil el día a día.
+                    </p>
+                    <p>
+                        Llegamos para que puedas seguir viviendo la vida a tu manera, con la tranquilidad de 
+                        que tu ropa se mantenga impecable con ACE. Desde 1997, hemos sido parte de los hogares 
+                        argentinos, y ahora regresamos renovados bajo Dreamco, una empresa argentina comprometida 
+                        con la calidad y la innovación.
+                    </p>
+                    
+                    <div class="about-stats">
+                        <div class="stat">
+                            <h3>1997</h3>
+                            <p>Año de llegada a Argentina</p>
+                        </div>
+                        <div class="stat">
+                            <h3>3</h3>
+                            <p>Formatos disponibles</p>
+                        </div>
+                        <div class="stat">
+                            <h3>80%</h3>
+                            <p>Biodegradabilidad mínima</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="image-placeholder about-img">
+                        <p>Imagen de la familia ACE</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contacto" class="contact-section">
+        <div class="container">
+            <h2 class="section-title">¡Consultanos!</h2>
+            <p class="section-subtitle">Estamos aquí para ayudarte con cualquier consulta sobre nuestros productos</p>
+            
+            <form class="contact-form" action="#" method="POST">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="nombre">Nombre *</label>
+                        <input type="text" id="nombre" name="nombre" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="apellido">Apellido *</label>
+                        <input type="text" id="apellido" name="apellido" required>
+                    </div>
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">Correo electrónico *</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="asunto">Asunto *</label>
+                        <select id="asunto" name="asunto" required>
+                            <option value="">Seleccionar asunto</option>
+                            <option value="producto">Conocé más del producto</option>
+                            <option value="reclamo">Reclamo</option>
+                            <option value="otro">Otro</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="producto">Producto</label>
+                        <select id="producto" name="producto">
+                            <option value="">Seleccionar producto</option>
+                            <option value="polvo-3kg">En Polvo - 3kg</option>
+                            <option value="concentrado-500ml">Para diluir - 500ml</option>
+                            <option value="liquido-800ml">Líquido Regular - 800ml</option>
+                        </select>
+                    </div>
+                </div>
+                
+                <div class="form-group">
+                    <label for="mensaje">Detalle de la consulta *</label>
+                    <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+                </div>
+                
+                <button type="submit" class="btn-primary">Enviar consulta</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <img src="images/logo.png" alt="ACE Argentina" class="footer-logo">
+                    <p>Detergente para familias modernas</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Productos</h4>
+                    <ul>
+                        <li><a href="#productos">Detergente en Polvo</a></li>
+                        <li><a href="#productos">Líquido Concentrado</a></li>
+                        <li><a href="#productos">Líquido Regular</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Ayuda</h4>
+                    <ul>
+                        <li><a href="#cuidado-ropa">Guías de Cuidado</a></li>
+                        <li><a href="#contacto">Contacto</a></li>
+                        <li><a href="politicas.html">Políticas de Privacidad</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h4>Seguinos</h4>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook">📘</a>
+                        <a href="#" aria-label="Instagram">📷</a>
+                        <a href="#" aria-label="Twitter">🐦</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 ACE Argentina - Dreamco. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+

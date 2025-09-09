@@ -1,0 +1,23 @@
+Estructura y datos:
+Schema enriquecido en todas las vistas: Organization, WebSite, Product (cada producto), Article (guías), HowTo (paso a paso), FAQPage (FAQ). Mejora extracción por motores y LLM.
+Breadcrumbs semánticos y accesibles.
+Canonicals por página y metadatos sociales completos.
+
+Contenido y formato:
+FAQ en lenguaje natural, respuestas completas y conversacionales, terminología argentina.
+Guías educativas profundas (manchas, bebé, mascotas, polvo vs líquido) con pasos accionables (HowTo).
+Comparativas y recomendaciones por escenario familiar (contexto útil para generativos).
+Textos con claims verificables (biodegradables, rinde, ahorro) alineados a productos.
+
+UX y accesibilidad:
+Navegación responsive, sticky header, smooth scrolling.
+Teclado/ARIA en acordeones, skip link, focus visible.
+Contraste y paleta consistente (#002395 / #F9461B) sin gradientes.
+
+Interacción y tracking:
+Eventos de interacción: clics en productos/guías, scroll depth, tiempo en página, búsqueda.
+CTAs hacia MercadoLibre medidos.
+
+Performance/SEO técnico:
+CSS modular con variables, lazy image hook listo, estructura semántica, print styles.
+URLs semánticas (guias/*, productos/*), enlaces internos optimizados.

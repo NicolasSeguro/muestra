@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es" itemscope itemtype="https://schema.org/ContactPage">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contactate con ACE Argentina. Soporte al cliente, consultas sobre productos y reclamos.">
+    <meta name="author" content="ACE Argentina">
+    <meta name="robots" content="index, follow">
+    <title>Contacto | ACE Argentina</title>
+    <link rel="canonical" href="https://ace.ar/contacto.html">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header" role="banner">
+        <nav class="nav-container" role="navigation" aria-label="Navegación principal">
+            <div class="nav-brand"><a href="index.html"><img src="images/logo.png" alt="ACE Argentina Logo" class="logo" width="120" height="40"></a></div>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="index.html#productos" class="nav-link">Productos</a></li>
+                <li><a href="index.html#cuidado-ropa" class="nav-link">Cuidado de la Ropa</a></li>
+                <li><a href="sobre-nosotros.html" class="nav-link">Sobre Nosotros</a></li>
+                <li><a href="contacto.html" class="nav-link">Contacto</a></li>
+            </ul>
+            <div class="nav-actions"><button class="search-btn" aria-label="Buscar" onclick="toggleSearch()">🔎</button><a href="https://tienda.mercadolibre.com.ar/ace" target="_blank" rel="noopener" class="cta-btn">Comprar en MercadoLibre</a></div>
+            <button class="mobile-menu-btn" id="mobile-menu-btn" aria-label="Menú móvil" onclick="toggleMobileMenu()"><span></span><span></span><span></span></button>
+        </nav>
+    </header>
+
+    <nav class="breadcrumb" aria-label="Navegación de migas de pan">
+        <div class="container">
+            <ol class="breadcrumb-list">
+                <li><a href="index.html">Inicio</a></li>
+                <li aria-current="page">Contacto</li>
+            </ol>
+        </div>
+    </nav>
+
+    <main class="contact-section" role="main">
+        <div class="container">
+            <h1 class="section-title">Contacto</h1>
+            <p class="section-subtitle">Escribinos y te respondemos a la brevedad</p>
+            <form class="contact-form" action="#" method="POST" aria-label="Formulario de contacto">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="nombre">Nombre *</label>
+                        <input type="text" id="nombre" name="nombre" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="apellido">Apellido *</label>
+                        <input type="text" id="apellido" name="apellido" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="email">Correo electrónico *</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="asunto">Asunto *</label>
+                        <select id="asunto" name="asunto" required>
+                            <option value="">Seleccionar asunto</option>
+                            <option value="producto">Conocé más del producto</option>
+                            <option value="reclamo">Reclamo</option>
+                            <option value="otro">Otro</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="producto">Producto</label>
+                        <select id="producto" name="producto">
+                            <option value="">Seleccionar producto</option>
+                            <option value="polvo-3kg">En Polvo - 3kg</option>
+                            <option value="concentrado-500ml">Para diluir - 500ml</option>
+                            <option value="liquido-800ml">Líquido Regular - 800ml</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="mensaje">Detalle de la consulta *</label>
+                    <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="btn-primary">Enviar consulta</button>
+            </form>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand"><img src="images/logo.png" alt="ACE Argentina" class="footer-logo"><p>Detergente para familias modernas</p></div>
+                <div class="footer-links"><h4>Productos</h4><ul><li><a href="index.html#productos">Detergente en Polvo</a></li><li><a href="index.html#productos">Líquido Concentrado</a></li><li><a href="index.html#productos">Líquido Regular</a></li></ul></div>
+                <div class="footer-links"><h4>Compañía</h4><ul><li><a href="sobre-nosotros.html">Sobre Nosotros</a></li><li><a href="contacto.html">Contacto</a></li><li><a href="politicas.html">Políticas de Privacidad</a></li></ul></div>
+                <div class="footer-social"><h4>Seguinos</h4><div class="social-links"><a href="#" aria-label="Facebook">📘</a><a href="#" aria-label="Instagram">📷</a><a href="#" aria-label="Twitter">🐦</a></div></div>
+            </div>
+            <div class="footer-bottom"><p>&copy; 2025 ACE Argentina - Dreamco. Todos los derechos reservados.</p></div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ContactPage",
+      "name": "Contacto | ACE Argentina",
+      "url": "https://ace.ar/contacto.html"
+    }
+    </script>
+</body>
+</html>
+
+

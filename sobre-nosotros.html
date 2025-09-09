@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es" itemscope itemtype="https://schema.org/AboutPage">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Conocé la historia de ACE Argentina: desde 1997 en los hogares del país. Hoy de la mano de Dreamco, con foco en eficacia, simplicidad y sostenibilidad.">
+    <meta name="author" content="ACE Argentina">
+    <meta name="robots" content="index, follow">
+    <title>Sobre Nosotros | ACE Argentina</title>
+    <link rel="canonical" href="https://ace.ar/sobre-nosotros.html">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "ACE Argentina",
+      "url": "https://ace.ar",
+      "logo": "https://ace.ar/images/ace-logo.png",
+      "foundingDate": "1997",
+      "parentOrganization": {"@type":"Organization","name":"Dreamco"},
+      "address": {"@type":"PostalAddress","addressCountry":"AR","addressRegion":"Buenos Aires"},
+      "contactPoint": {"@type":"ContactPoint","telephone":"+54-11-2298-2450","contactType":"customer service","availableLanguage":"Spanish"}
+    }
+    </script>
+</head>
+<body>
+    <header class="header" role="banner">
+        <nav class="nav-container" role="navigation" aria-label="Navegación principal">
+            <div class="nav-brand"><a href="index.html"><img src="images/logo.png" alt="ACE Argentina Logo" class="logo" width="120" height="40"></a></div>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="index.html#productos" class="nav-link">Productos</a></li>
+                <li><a href="index.html#cuidado-ropa" class="nav-link">Cuidado de la Ropa</a></li>
+                <li><a href="sobre-nosotros.html" class="nav-link">Sobre Nosotros</a></li>
+                <li><a href="contacto.html" class="nav-link">Contacto</a></li>
+            </ul>
+            <div class="nav-actions"><button class="search-btn" aria-label="Buscar" onclick="toggleSearch()">🔎</button><a href="https://tienda.mercadolibre.com.ar/ace" target="_blank" rel="noopener" class="cta-btn">Comprar en MercadoLibre</a></div>
+            <button class="mobile-menu-btn" id="mobile-menu-btn" aria-label="Menú móvil" onclick="toggleMobileMenu()"><span></span><span></span><span></span></button>
+        </nav>
+    </header>
+
+    <nav class="breadcrumb" aria-label="Navegación de migas de pan">
+        <div class="container">
+            <ol class="breadcrumb-list">
+                <li><a href="index.html">Inicio</a></li>
+                <li aria-current="page">Sobre Nosotros</li>
+            </ol>
+        </div>
+    </nav>
+
+    <main class="about-section" role="main">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>La vida cambió. Tu detergente también.</h2>
+                    <p class="about-intro">Desde 1997, ACE acompaña a las familias argentinas. Hoy, bajo Dreamco, reforzamos nuestro compromiso con la eficacia, la simplicidad de uso y la sostenibilidad.</p>
+                    <p>Entendemos hogares con hijos, mascotas y ritmos activos. Por eso nuestras fórmulas con tensioactivos biodegradables, enzimas quitamanchas y catalizadores biológicos se adaptan a cada realidad.</p>
+                    <div class="about-stats">
+                        <div class="stat"><h3>1997</h3><p>Año de llegada a Argentina</p></div>
+                        <div class="stat"><h3>3</h3><p>Formatos disponibles</p></div>
+                        <div class="stat"><h3>80%</h3><p>Biodegradabilidad mínima</p></div>
+                    </div>
+                    <div class="hero-actions" style="margin-top: 1.5rem;">
+                        <a href="index.html#productos" class="btn-secondary">Ver productos</a>
+                        <a href="https://tienda.mercadolibre.com.ar/ace" target="_blank" rel="noopener" class="btn-primary">Comprar en MercadoLibre</a>
+                    </div>
+                </div>
+                <div class="about-image"><div class="image-placeholder about-img"><p>Familias modernas con ACE</p></div></div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand"><img src="images/logo.png" alt="ACE Argentina" class="footer-logo"><p>Detergente para familias modernas</p></div>
+                <div class="footer-links"><h4>Productos</h4><ul><li><a href="index.html#productos">Detergente en Polvo</a></li><li><a href="index.html#productos">Líquido Concentrado</a></li><li><a href="index.html#productos">Líquido Regular</a></li></ul></div>
+                <div class="footer-links"><h4>Compañía</h4><ul><li><a href="sobre-nosotros.html">Sobre Nosotros</a></li><li><a href="contacto.html">Contacto</a></li><li><a href="politicas.html">Políticas de Privacidad</a></li></ul></div>
+                <div class="footer-social"><h4>Seguinos</h4><div class="social-links"><a href="#" aria-label="Facebook">📘</a><a href="#" aria-label="Instagram">📷</a><a href="#" aria-label="Twitter">🐦</a></div></div>
+            </div>
+            <div class="footer-bottom"><p>&copy; 2025 ACE Argentina - Dreamco. Todos los derechos reservados.</p></div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "AboutPage",
+      "name": "Sobre Nosotros | ACE Argentina",
+      "description": "Historia y valores de ACE Argentina, detergente para familias modernas.",
+      "url": "https://ace.ar/sobre-nosotros.html"
+    }
+    </script>
+</body>
+</html>
+
+
